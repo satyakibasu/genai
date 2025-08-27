@@ -1,0 +1,2 @@
+Vector databases are used to store and search high-dimensional vectors. ChromaDB is one such database that runs locally.
+Ollama lets you run large language models locally like Mistral or LLaMA 3.
