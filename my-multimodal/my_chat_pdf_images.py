@@ -36,7 +36,7 @@ def open_image_as_base64(filename):
 # Read the pdf and convert all pages as images. This is stored in contracts dir.
 # The pdf is password protected
 file_path = 'satyaki_hdfc_contract_password.pdf'
-password = 'SAT0808'
+password = 'xxxx'
 
 doc = pymupdf.open(file_path,)
 print("no of pages:",doc.page_count)
