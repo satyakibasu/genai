@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "my-mcp": {
+      "command": "python",
+      "args": ["/Users/satyakibasu/Documents/Satyaki/python_code/gen-ai/my-mcp/server.py"]
+    }
+  }
+}
