@@ -1,0 +1,20 @@
+GITHUB_TOKEN.txt
+HuggingFace Details.txt
+PythonAI-LLMs-ForSharing.pptx
+PythonAI-RAG-ForSharing.pdf
+PythonAI-VectorEmbeddingsForSharing.pptx
+PythonAI-VisionModels-ForSharing.pptx
+RAG Flow.key
+my-rag/rag-hf-chromadb.py
+openai-chat-vision-quickstart/
+python-openai-demos/
+pamela-fox-tutorials/
+vector-embeddings-demos/files_to_ignore
+p311env
+dave-ebbelaar/
+udemy-krishnaik/
+.env
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

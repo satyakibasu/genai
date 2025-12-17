@@ -35,16 +35,19 @@ def open_image_as_base64(filename):
 
 # Read the pdf and convert all pages as images. This is stored in contracts dir.
 # The pdf is password protected
-file_path = 'satyaki_hdfc_contract_password.pdf'
-password = 'xxxx'
+file_path = 'contracts/satyaki.pdf'
+password = 'SAT0808'
 
 doc = pymupdf.open(file_path,)
+page_count = doc.page_count
 print("no of pages:",doc.page_count)
 
 if doc.authenticate(password):  
     for page in doc:
         pix = page.get_pixmap()  # render page to an image
         pix.save("contracts/"+"page-%i.png" % page.number)  # store image as a PNG
+
+
 
 doc.close()
 
@@ -55,10 +58,17 @@ page_0_base64 = open_image_as_base64("contracts/page-0.png")
 
 
 ## Let's create a message to send a text and image to the model
+user_content = [{"type": "text", "text": "Give me a list of information on the trades in form of ONLY json objects and the person who has traded information. Do not put any header or footer string information "},]
+
+for i in range(page_count):
+     user_content.append({"image_url": {"url": open_image_as_base64(f"contracts/page-{i}.png")}, "type": "image_url"})
+
+# This is for a single image
+
 messages = [
     {"role": "system", "content": "You are a an expert in reading trades contract document."},
     {"role": "user", "content": [
-        {"type": "text", "text": "Give me a list of information on the trades in form of list of json objects?"},
+        {"type": "text", "text": "Give me a list of information on the trades in form of ONLY json objects and the person who has traded information. Do not put any header or footer string information "},
         {
             "type": "image_url",
             "image_url": {
@@ -67,6 +77,15 @@ messages = [
         }               
         ]}
     ]
+
+
+'''
+# This is for multiple images
+messages = [
+    {"role": "system", "content": "You are a an expert in reading trades contract document."},
+    {"role": "user", "content": user_content}]
+
+'''
 
 response = client.chat.completions.create(
     model=MODEL_NAME,

@@ -14,7 +14,7 @@ MODEL_NAME = os.getenv("GITHUB_MODEL", "openai/gpt-4o")
 
 if API_HOST == "github":
     client = openai.OpenAI(base_url="https://models.github.ai/inference", api_key=os.environ["GITHUB_TOKEN"])
-    model = SentenceTransformer('all-MiniLM-L6-v2') # enconding model for text
+    model = SentenceTransformer('all-MiniLM-L6-v2') # encoding model for text
 
 
 # Load the datafrome

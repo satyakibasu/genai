@@ -1,0 +1,28 @@
+{
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${input:github_token_v2}"
+      }
+    },
+    "expenses-mcp": {
+			"type": "stdio",
+			"command": "/Users/satyakibasu/Documents/Satyaki/python_code/gen-ai/p311env/bin/python",
+			"cwd": "${workspaceFolder}",
+			"args": [
+				"-u",
+				"pamela-fox-tutorials/python-mcp-demos/servers/basic_mcp_stdio.py"
+			]
+		}
+  },
+  "inputs": [
+    {
+      "id": "github_token_v2",
+      "type": "promptString",
+      "description": "GitHub Personal Access Token",
+      "password": true
+    }
+  ]
+}

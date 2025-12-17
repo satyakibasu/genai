@@ -1,0 +1,53 @@
+{
+  "person": {
+    "name": "SATYAKI BASU",
+    "address": "A3801 KARISHMA SOCIETY, KARVE ROAD, KOTHRUD, PUNE, 411038, MAHARASHTRA, INDIA",
+    "phone": "9923442124",
+    "trading_&_ucc": "3391801 & 3391801",
+    "pan_no": "AEPPB8913G"
+  },
+  "trades": [
+    {
+      "order_no": "1100000068872354",
+      "order_time": "14:56:07",
+      "trade_no": "20873822",
+      "trade_time": "14:56:07",
+      "security_description": "INDIAN ENERGY EXCH ANGE LIMITED-Cash-I NE022Q01020",
+      "buy_sell": "B",
+      "quantity": 9,
+      "gross_rate_per_unit": 166.46,
+      "brokerage_per_unit": 0.8322,
+      "net_rate_per_unit": 167.29,
+      "closing_rate_per_unit": "N/A",
+      "net_total": 1505.63
+    },
+    {
+      "order_no": "1100000068872354",
+      "order_time": "14:56:07",
+      "trade_no": "20873822",
+      "trade_time": "14:56:07",
+      "security_description": "INDIAN ENERGY EXCH ANGE LIMITED-Cash-I NE022Q01020",
+      "buy_sell": "B",
+      "quantity": 475,
+      "gross_rate_per_unit": 166.46,
+      "brokerage_per_unit": 0.8323,
+      "net_rate_per_unit": 167.29,
+      "closing_rate_per_unit": "N/A",
+      "net_total": 79463.84
+    },
+    {
+      "order_no": "1100000068872354",
+      "order_time": "14:56:07",
+      "trade_no": "20873823",
+      "trade_time": "14:56:07",
+      "security_description": "INDIAN ENERGY EXCH ANGE LIMITED-Cash-I NE022Q01020",
+      "buy_sell": "B",
+      "quantity": 175,
+      "gross_rate_per_unit": 166.47,
+      "brokerage_per_unit": 0.8323,
+      "net_rate_per_unit": 167.30,
+      "closing_rate_per_unit": "N/A",
+      "net_total": 29277.91
+    }
+  ]
+}

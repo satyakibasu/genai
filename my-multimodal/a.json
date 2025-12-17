@@ -1,0 +1,50 @@
+{
+  "trader": {
+    "name": "Satyaki Basu",
+    "address": "A3801 Karishma Society, Karve Road, Kothrud, Pune, 411038, Maharashtra, India",
+    "contact_no": "9923442124",
+    "pan_no": "AEEPB8931G",
+    "gst_no": "Maharashtra/V27"
+  },
+  "trades": [
+    {
+      "order_no": "11000000688772354",
+      "trade_time": "14:56:07",
+      "trade_no": "20878322",
+      "security_description": "INDIAN ENERGY EXCHANGE LIMITED-Cash-I NE022Q01020",
+      "buy_sell": "B",
+      "quantity": 9,
+      "gross_rate_per_unit": 166.46,
+      "brokerage_per_unit": 0.8322,
+      "net_rate_per_unit": 167.29,
+      "closing_rate_per_unit": null,
+      "net_total_before_levies": 1505.63
+    },
+    {
+      "order_no": "11000000688772354",
+      "trade_time": "14:56:07",
+      "trade_no": "20878322",
+      "security_description": "INDIAN ENERGY EXCHANGE LIMITED-Cash-I NE022Q01020",
+      "buy_sell": "B",
+      "quantity": 475,
+      "gross_rate_per_unit": 166.46,
+      "brokerage_per_unit": 0.8323,
+      "net_rate_per_unit": 167.29,
+      "closing_rate_per_unit": null,
+      "net_total_before_levies": 79463.84
+    },
+    {
+      "order_no": "11000000688772354",
+      "trade_time": "14:56:07",
+      "trade_no": "20878323",
+      "security_description": "INDIAN ENERGY EXCHANGE LIMITED-Cash-I NE022Q01020",
+      "buy_sell": "B",
+      "quantity": 175,
+      "gross_rate_per_unit": 166.47,
+      "brokerage_per_unit": 0.8323,
+      "net_rate_per_unit": 167.30,
+      "closing_rate_per_unit": null,
+      "net_total_before_levies": 29277.91
+    }
+  ]
+}

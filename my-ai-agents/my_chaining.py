@@ -54,7 +54,7 @@ class EventConfirmation(BaseModel):
 # seq: extract_event_info --> parse_event_details --> generate_confirmation
 # --------------------------------------------------------------
 
-def extract_event_info(user_input:str) -> EventDetails:
+def extract_event_info(user_input:str) -> EventExtraction:
     today = datetime.now()
     date_context = f"Today is {today.strftime('%A, %B %d, %Y')}."
 

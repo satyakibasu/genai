@@ -1,0 +1,7 @@
+1) all-MiniLM-L6-v2 	# embedding model for text
+2) clip-ViT-B-32" 		# embedding model for text and image
+3) Reciprocal Rank Fusion (RRF)
+4) cross-encoder/ms-marco-MiniLM-L-6-v2" # re-ranking model 
+5) RecursiveCharacterTextSplitter # splitting text sentences/para into chunks
+6) AutoTokenizer, AutoModelForCausalLM # Used from transformers library 
+7) openai/text-embedding-3-small # from OpenAI for embedding model

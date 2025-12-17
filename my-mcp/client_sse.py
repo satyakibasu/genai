@@ -9,6 +9,7 @@ from mcp.client.sse import sse_client
 
 async def main_sse(client_name: str):
     async with sse_client("http://127.0.0.1:8765/sse") as (read, write):
+        
         async with ClientSession(read, write) as session:
             await session.initialize()
             print("✅ Session initialized")
