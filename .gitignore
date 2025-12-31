@@ -18,3 +18,6 @@ udemy-krishnaik/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+my-langchain/p310env
+my-langchain/chroma_db
+my-langchain/faiss_index
