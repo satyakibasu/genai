@@ -21,3 +21,6 @@ __pycache__/
 my-langchain/p310env
 my-langchain/chroma_db
 my-langchain/faiss_index
+my-langchain/aws-bedrock/langchain-admin_accessKeys.csv
+my-langchain/my-project-chatbot/rag-chat-qa/tenant_agreement/
+my-langchain/my-project-chatbot/aws-bedrock/tenant_agreement/
